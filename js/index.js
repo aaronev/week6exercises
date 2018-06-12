@@ -60,6 +60,53 @@ var combinedNumbers = num1 + num2 + num3
 console.log(combinednumbers)
 //120
 
+//Part 5
+var mixedNum1 = 10
+var mixedString1 = "ten"
+var mixedNum2 = "10"
+var mixedConcatenation = mixedNum1 + mixedNum2 + mixedString1
+console.log(mixedConcatenation)
+//1010ten
+
+//Part 6
+var num4 = 5;
+var num5 = 0;
+if (num4 > 1) {
+  console.log("Num4 is greater than 1")
+} else {
+  console.log("Num4 is NOT greater than 1")
+}
+//Num4 is greater than 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
