@@ -173,8 +173,19 @@ testStuff2(26, 101) // Neither if nor else if statement ran
 testStuff2(25, 99) // 25 is equal to 25 99 is less than or equal to 100
 testStuff2(102, 24) // 24 is less than or equal to 100
 
+//Part 13
+function countVowels(someString) {
+  var vowels = 0;
+  for (var i = 0; i < someString.length; i++) {
+  if (someString[i] == "a" || someString[i] == "e" || someString[i] == "i" || someString[i] == "o" || someString[i] == "u") {
+    vowels++
+  }
+  return vowels
+}
 
-
+countVowels("I am the very model of a modern major general") //14
+countVowels("Exeunt pursued by a bear") //8
+countVowels("o1234567891o") //2
 
 
 
