@@ -78,10 +78,43 @@ if (num4 > 1) {
 }
 //Num4 is greater than 1
 
+//Part 7
+var num4 = 5
+var num5 = 0
 
+if(num4 < num5 || num4 === num5) {
+  console.log('If statement ran!')
+} else if (num5 === "0" || true) {
+  console.log("Else if statement ran")
+} else {
+  console.log("Else statement ran")
+}
+//else if statement ran 
+//else statement ran
 
-
-
+//Part 8
+var string1 = "this is a string"
+for (var i = 0; i < string1.length; i = i + 1) {
+  console.log(i, string1[i])
+}
+/*
+0 t
+1 h
+2 i 
+3 s
+4 
+5 i
+6 s
+7 
+8 a
+9
+10 s
+11 t
+12 r
+13 i
+14 n
+15 g
+*/
 
 
 
