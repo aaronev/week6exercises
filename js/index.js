@@ -52,6 +52,14 @@ var combinedStrings = string1 + string2 + string 3
 console.log(combinedStrings)
 //Hello, my name is Kingsley Pappagiorgio
 
+//Part 4
+var num1 = 8
+var num2 = 52
+var num3 = 60
+var combinedNumbers = num1 + num2 + num3
+console.log(combinednumbers)
+//120
+
 
 
 
