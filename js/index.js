@@ -116,8 +116,27 @@ for (var i = 0; i < string1.length; i = i + 1) {
 15 g
 */
 
+//Part 9
+var string2 = "coding"
+var total = 0
+for (var i = 0; i < string2.length; i++) {
+  total = total + i
+}
+//5
 
 
+//Part 10
+
+var string3 = "onomatopoeia"
+for (var i = 0; i < string3.length; i++) {
+  if (string3[i] == 'o') {
+    console.log(i, string3[i])
+  }
+}
+//0 o
+//2 o
+//6 o 
+//8 o
 
 
 
