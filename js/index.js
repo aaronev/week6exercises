@@ -126,7 +126,6 @@ for (var i = 0; i < string2.length; i++) {
 
 
 //Part 10
-
 var string3 = "onomatopoeia"
 for (var i = 0; i < string3.length; i++) {
   if (string3[i] == 'o') {
@@ -138,9 +137,14 @@ for (var i = 0; i < string3.length; i++) {
 //6 o 
 //8 o
 
-
-
-
+//Part 11
+var string4 = "You're gonna need a bigger boat."
+for (var i = 0; i < string4.length; i++){
+  if (string4[i] == "a" || string4[i] == "e" || string4[i] == "i" || string4[i] == "o" || string4[i] == "u") {
+    console.log(string4[i])
+  }
+}
+//o u e o a e e a i e o a 
 
 
 
