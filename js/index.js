@@ -159,7 +159,19 @@ testStuff(10, 101) // 10 is NOT greater than 25 and 101 is NOT less than 100
 testStuff(26, 99) // 26 is greater than 25 and 99 is less than 100
 testStuff(100, 25) // 100 is greater than 25 and 25 is NOT less than 100
 
+function testStuff2(c, d) {
+  if (c == 25) {
+    return c + " is equal to 25"
+  } else if (d <= 100) {
+    return d + " is less than or equal to 100"
+  } else {
+    return "Neighter if nor else if statement ran"
+  }
+}
 
+testStuff2(26, 101) // Neither if nor else if statement ran
+testStuff2(25, 99) // 25 is equal to 25 99 is less than or equal to 100
+testStuff2(102, 24) // 24 is less than or equal to 100
 
 
 
