@@ -44,3 +44,19 @@ var testFourteen = '14' === 14
 var testFifteen = 'Hi there'[0] + 'open sesame'[2] + 'alohamora'[1] + 'eulalia'[4] + 'harkonnen'[4] + 'BATMAN!'[6]
 //string => Hello!
 
+//Part 3
+var string1 = "Hello, "
+var string2 = "my name is "
+var string3 = "Kingsley Pappagiorgio."
+var combinedStrings = string1 + string2 + string 3
+console.log(combinedStrings)
+//Hello, my name is Kingsley Pappagiorgio
+
+
+
+
+
+
+
+
+
