@@ -146,8 +146,18 @@ for (var i = 0; i < string4.length; i++){
 }
 //o u e o a e e a i e o a 
 
+//Part 12
+function testStuff(a, b) {
+  if (a > 25 && b < 100) {
+    console.log(a + " is greater than 25 and " + b + " is less than 100")
+  } else {
+    console.log(a + " is NOT greater than 25 and " + b + " is NOT less than 100")
+  }
+}
 
-
+testStuff(10, 101) // 10 is NOT greater than 25 and 101 is NOT less than 100
+testStuff(26, 99) // 26 is greater than 25 and 99 is less than 100
+testStuff(100, 25) // 100 is greater than 25 and 25 is NOT less than 100
 
 
 
